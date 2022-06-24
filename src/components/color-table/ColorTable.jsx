@@ -10,9 +10,7 @@ export default class ColorTable extends Component {
         return(
             <ul className="wrap-table">
                 {this.props.list.map((items) => {
-
                     if(items.length > 0) {
-
                         return(
                             <li key={this.randomKeyValues(parseInt(Math.floor(items.join('')) * Math.random()))}>
                                 <div style={{backgroundColor: this.props.backgroundColor(...items)}} className='small-square'></div>
