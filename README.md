@@ -1,0 +1,1 @@
+Gerador de cores aleatórias feito com React
